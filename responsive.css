@@ -1,0 +1,41 @@
+/* Responsivness */
+
+
+@media screen and (max-width: 900px){
+    .temp{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+  
+    #level-title{
+      font-size: 25px;
+      width: 300px;
+    }
+  
+    .slide{
+      width: 193px;
+      height: 50px;
+      margin: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+  
+    .btn{
+      height: 110px;
+      width: 129px;
+      margin: 10px;
+    }
+  
+  .menu-button-container{
+    margin-top: 75px;
+  }
+  
+  .slide-container{
+    height: 75px;
+  }
+  
+  }

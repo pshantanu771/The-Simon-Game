@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Sacramento&display=swap');
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+  margin: 0;
+  padding: 0;
+}
+
+/* ************************* CSS for the game page ******************************* */
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 35px;
+  /* margin:  5%; */
+  color: #FEF2BF;
+}
+
+.container {
+  /* display: block;
+  width: 50%;
+  margin: auto; */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 140px;
+  width: 180px;
+  border: 10px solid black;
+  border-radius: 20%;
+  
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* ********************************** CSS for Menu-Page ****************************** */
+
+.temp{
+  /* position: absolute; */
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.menu-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide{
+  width: 265px;
+  height: 70px;
+  margin: 2%;
+  border-radius: 12px;
+  outline: none;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #F3C892;
+  font-size: 1.1rem;
+  cursor: pointer;
+ 
+}
+.slide:hover{
+  background-color: #FEF2BF;
+  -webkit-box-shadow:0px 0px 40px 12px rgba(224,154,101,1);
+  -moz-box-shadow: 0px 0px 40px 12px rgba(224,154,101,1);
+  box-shadow: 0px 0px 40px 12px rgba(224,154,101,1);
+}
+
+.menu-page{
+  width: 60%;
+  margin: 5% auto;
+  line-height: 1.6;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+
+.slide-container{
+  width: 15%;
+  height: 60px;
+}
+
+.level-no{
+  font-size: 30px;
+  color:red;
+  display: none;
+  text-shadow: rgba(255, 7, 7, 0.938) 3px 3px 22px,
+				 rgba(255, 7, 7, 0.938) 4px 4px 22px;
+  font-family: 'Pushster', cursive;
+}
+
+.GitHub{
+  text-decoration: none;
+  color: inherit;
+  padding: 24px;
+  padding-left: 31px;
+}
+
+.highScoreEffect{
+  /* color: #fff;
+  background-color:transparent;
+  text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px   40px; */
+  color: #F3C892;
+  color: #ffc169;
+  font-family: 'Pushster', cursive;
+	text-shadow: rgba(246, 116, 76, 0.938) 3px 3px 22px,
+				 rgba(246, 116, 76, 0.938) 4px 4px 22px;
+}
+
+
